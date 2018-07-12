@@ -1,0 +1,26 @@
+{
+  "name": "container-automation-azurefunctions-ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:watch": "tsc -w",
+    "build": "npm run tsc && funcpack pack ./",
+    "unpack": "funcpack unpack ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/request-promise": "4.1.41",
+    "adal-node": "0.1.28",
+    "azure-functions-pack": "1.0.0",
+    "request-promise": "4.2.2",
+    "typescript": "2.9.2"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  }
+}

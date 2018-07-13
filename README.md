@@ -30,7 +30,9 @@ az acr credential show --name $acrName --query "passwords[0].value"
   - Create a client secret -> store this in the local.settings.json
   - Add the Windows Azure Service Management API to the required permissions (only one delegate scope)
   - Click grant permissions
-- Give the Azure AD App - contribute permissions on the container registry
+- Give the Azure AD App - contribute permissions on the following resources:
+  - Resource Group
+  - Azure Container Registry
 
 ## Local development
 
